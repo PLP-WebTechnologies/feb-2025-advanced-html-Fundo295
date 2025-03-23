@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML,List,Images,Table & Form</title>
+    </head>
+    <body>
+        <h2>Ordered List</h2>
+        <ol type="I">
+            <li>wake Up</li>
+            <li>Exercise</li>
+            <li>Shower and get dressed</li>
+            <li>Start work</li>
+            <li>Take A Lunch break</li>
+            <li>Continue work</li>
+            <li>Relax and unwind</li>
+            <li>Go to sleep</li>
+        </ol>
+        <h2>Images</h2>
+        <h3>External image</h3>
+        <img src="https://images.pexels.com/photos/27936330/pexels-photo-27936330/free-photo-of-a-bee-is-sitting-on-top-of-yellow-flowers.jpeg" 
+        alt="A bee is sitting on top of yellow flowers" height="500" width="500"
+
+        <h2>HTML TABLE</h2>
+        <table border="1">
+            <caption>Important information</caption>
+            <thead>
+                <tr> 
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Andy</td>
+                    <td>90 Fossil str,Boksburg</td>
+                    <td>083 506 1948</td>
+                    <td>Andykay@12gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Tyrone</td>
+                    <td>125 Florentia,Alberton</td>
+                    <td>072 165 3474</td>
+                    <td>AddamsT2@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Mpumi</td>
+                    <td>992 Ngema Str,Katlehong</td>
+                    <td>079 295 6954</td>
+                    <td>MpumiM29@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Andrew</td>
+                    <td>123 Sunward park,Boksburg</td>
+                    <td>083 506 1948</td>
+                    <td>Andrew47@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Teddy</td>
+                    <td>90 Mint APt,Sandton</td>
+                    <td>079 853 6745</td>
+                    <td>Teddybee@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>HTML Form</h3>
+        <form action="" method="">
+            <lablel for="Full name">Full name</lablel>
+            <input type="Text" id="Full name" name="Full name" placeholder="Enter your Full names here" required>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email"required>
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required
+            pattern=". {6,}" title="Password must be at least 6 charecters">
+            <br><br>
+            <label for="date">Date of birth:</label>
+            <input type="date" id="date" name="date" required>
+            <br><br>
+            <label for="country">Country</label>
+            <select id="country" name="country" required>
+                <option value=""Select a country</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option valu="Kenya">Kenya</option>
+                    </select>
+                    <br><br>
+             <label for="gender">Gender:</label> 
+             <input type="radio" id="male" name="gender" value="male" required>
+             <label for="male">Male</label>
+             <input type="radio" id="female" name="gender" value="female" required>
+             <label for="female">Female</label>
+             <input type="radio" id="other" name="gender" value="other" required
+             <label for="other">Other</label>
+             <br><br>
+             <label for="interests">Interests</label>
+             <input type="checkbox" id="reading" name="interests" value="reading">
+             <label for="reading">Reading</label>
+             <input type="checkbox" id="Skating" name="interests" value="skating">
+             <label for="skating">Skating</label>
+             <input type="checkbox" id="coding" name="interests" value="coding">
+             <label for="coding">Coding</label>
+             <br><br>
+             <button type="submit">Register</button>
+        </form>
+    </body>
+</html>
